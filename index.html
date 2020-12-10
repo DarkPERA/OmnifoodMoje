@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omnifood restoran</title>
+    <link href='style.css' rel='stylesheet' type='text/css'>
+    <link href='query.css' rel='stylesheet' type='text/css'>
+    <script defer src='script.js'></script>
+    <link href='img/favicon.ico' rel='icon' type='image/x-icon'>
+</head>
+
+<body>
+
+    <div class='intro'>
+        <div class='introtxt'>Dobrodošli u</div>
+        <img src='img/logo-white.png'>
+    </div>
+
+
+
+    <div class='sajt'>
+
+        <div class='pozadinaHeader'>
+            <div class='frame' id='top'>
+                <nav>
+                    <img src='img/logo-white.png'>
+                    <ul>
+                        <li><a href='#top'>Home</a></li>
+                        <li><a href='#meni'>Meni</a></li>
+                        <li><a href='#lokacija'>Lokacije</a></li>
+                        <li><a href='#kontakt'>Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class='hederBlok'>
+                <div class='headerTxt'>Zbogom nezdravoj hrani.<br>Pozdrav ukusnim obrocima</div>
+                <a id='frst-btn' href='#meni'>Gladan sam!</a>
+                <a id='scnd-btn' href='#lokacija'>Pozovi</a>
+            </div>
+        </div>
+
+        <div class='meni' id='meni'>
+            <h2>Hrana koju nudimo</h2>
+            <div class='flex-container'>
+
+                <div class='hrana'>
+                    <div class='prviflex'>
+                        <div class='unutra'>Thai</div><a href='thai.html #meniSadrzaj'><img src='img/1.jpg'></a>
+                    </div>
+                    <div class='prviflex'>
+                        <div class='unutra'>Italian</div><a href='italian.html #meniSadrzaj'><img src='img/2.jpg'></a>
+                    </div>
+                    <div class='prviflex'>
+                        <div class='unutra'>Norwegian</div><a href='norw.html #meniSadrzaj'><img src='img/4.jpg'></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <section class='lokacije' id='lokacija'>
+            <h2>Pronađi nas</h2>
+            <div class='flex-lox-wrap'>
+
+                <div class='lokacija-1'>
+                    <div class='lok-slika'><img src='img/berlin.jpg'></img></div>
+                    <div class='grad'>Berlin</div>
+                    <div class='adresa'>22. Fehribelliner Str.</div>
+                    <div class='broj'>+49 930 901 820</div>
+                    <div class='mejl'>omniger@gmail.com</div>
+                </div>
+
+                <div class='lokacija-3'>
+                    <div class='lok-slika'><img src='img/nsrs.jpg'></img></div>
+                    <div class='grad'>Novi Sad</div>
+                    <div class='adresa'>42. Bulevar Oslobođenja</div>
+                    <div class='broj'>+381 61 644 271</div>
+                    <div class='mejl'>omniserbia@gmail.com</div>
+                </div>
+
+
+                <div class='lokacija-2'>
+                    <div class='lok-slika'><img src='img/lisbon-3.jpg'></img></div>
+                    <div class='grad'>Lisbon</div>
+                    <div class='adresa'>17 Lgo do Mastro</div>
+                    <div class='broj'>+351 21 757 223</div>
+                    <div class='mejl'>omniportugal@gmail.com</div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class='forma' id='kontakt'>
+            <div class='frame'>
+                <div class='privremeno'>
+                    <h2>Kontaktiraj nas</h2>
+                </div>
+                <form name='kontakt' method='get' title='kontakt'>
+                    <div class='formwrap'>
+                        <div><label for='ime'>Ime:</label> <input type='text' name='ime' placeholder='Ime' required>
+                        </div>
+                        <div><label for='prezime'>Prezime:</label> <input type='text' name='prezime'
+                                placeholder='Prezime' required></div>
+                        <div style='margin-bottom:5%'><label for='brtel'>Broj telefona:</label><input type='text'
+                                name='brtel' placeholder='Broj telefona'></div>
+                        <div style='text-align:center;'><span>Šta želite da nam kažete:</span></div>
+                        <div><textarea maxlength="300" rows='10'></textarea></div>
+                        <div class='fleksbtn'>
+                            <div><input type='submit' name='submit' value='Pošalji'></div>
+                            <div><input type='reset' name='reset' value='Obriši'></div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class='sadrzajfutera'>
+                <div class='slika'><img src='img/logo-white.png'></div>
+                <div class='copyright'>© 2020 Restoran Omnifood Novi Sad. Sva prava zadržana</div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

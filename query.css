@@ -1,0 +1,188 @@
+@media only screen and (max-width:1610px){
+    .headerTxt{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width:1260px){
+    .flex-container{
+        flex-wrap:wrap;
+        
+    }
+    .hrana{
+        flex-direction:column;
+    }
+    .prviflex{
+        margin:0 auto;
+    }
+
+    .flex-lox-wrap{
+       
+        flex-direction: column;
+   
+    }
+    .lokacija-1,.lokacija-2,.lokacija-3{
+        width:20%;
+        margin:2% auto;
+        
+    }
+    .meni{
+        height:120%;
+    }
+    .lokacije{
+        height:156%;
+    }
+  
+}
+@media screen and (max-width:1030px){
+    .headerTxt{
+        font-size: 20px;
+    }
+    .hederBlok a{
+        display:block;
+        margin-top:15%;
+       
+    }
+    #frst-btn,#scnd-btn{
+        width:50%;
+    }
+    .lokacija-1,.lokacija-2,.lokacija-3{
+        width:55%;
+        margin:2% auto;
+        
+    }
+    .lokacije{
+        height:256%;
+    }
+    .prviflex{
+        width:55%;
+    }
+    .meni{
+        height:150%;
+    }
+    
+}
+@media screen and (max-width:750px){
+    .headerTxt{
+        font-size: 90%;
+    }
+    label{
+        display:none;
+    }
+    input[type='text']{
+        width:100%;
+        margin-top:8%;
+        padding:12px;
+    }
+
+    .frame nav img{
+        float:none;
+        display:block;
+        margin:0 auto;
+
+    }
+    .frame nav li{
+        float:none;
+        padding:2px;
+        
+    }
+    .frame nav ul{
+        float:none;
+        display:block;
+       
+        text-align:center;
+        margin-top:10px;
+        
+    }
+}
+
+@media screen and (max-width:990px){
+    
+    label{
+        display:none;
+    }
+    input[type='text']{
+        width:100%;
+        margin-top:8%;
+        padding:12px;
+    }
+}
+
+
+@media screen and (max-height:874px) and (max-width:613px){
+    .forma{
+        height:120%;
+    }
+}
+
+@media screen and (max-width:750px){
+    
+    .top img{
+        float:none;
+        display:block;
+       width:20%;
+       height:auto;
+       margin:0 auto;
+    }
+    .top ul{
+        float:none;
+        margin:0 auto;        
+        width:20%;
+        padding:0px;
+        padding-top:6px;
+        padding-bottom:6px;
+        
+    }
+    .top ul li {
+        float:none;
+       padding:0px;
+        font-size:25px;
+        text-align:center;
+        margin-left:0px;
+        width:100%;
+        padding:2px 0px 2px 0px;
+      
+    }
+
+
+    .meni h2{
+        display:block;
+        margin:0 auto;
+        width:50%;
+        padding-top:30px;
+        padding-bottom:70px;
+        
+    }    
+    .meni{
+        height:300%;
+    }
+    
+   
+    .left .content{
+        float:none;
+        display:block;
+        width:100%;
+        padding-bottom:30px;
+        
+    }
+    .right .content{
+        float:none;
+        display:block;
+        width:100%;
+        padding-bottom:30px;
+        
+    }
+    .left img{
+        float:none;
+        display:block;
+        margin:0 auto;
+        width:80%;
+        height:auto;
+    }
+    .right img {
+        float:none;
+        display:block;
+        margin:0 auto;
+        width:80%;
+        height:auto;
+    }
+}
